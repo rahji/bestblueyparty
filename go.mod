@@ -1,4 +1,4 @@
-module github.com/charmbracelet/hotdiva2000
+module github.com/rahji/bestblueyparty
 
 go 1.21
 

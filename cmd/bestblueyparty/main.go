@@ -5,16 +5,16 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/charmbracelet/hotdiva2000"
 	"github.com/charmbracelet/x/exp/higherorder"
 	"github.com/charmbracelet/x/exp/ordered"
 	"github.com/dustin/go-humanize"
 	"github.com/mattn/go-runewidth"
+	"github.com/rahji/bestblueyparty"
 	flag "github.com/spf13/pflag"
 )
 
 func formatPossibilities() string {
-	low, high := hotdiva2000.Possibilities()
+	low, high := bestblueyparty.Possibilities()
 	return fmt.Sprintf(
 		"Minimum combinations: %s\nMaximum combinations: %s",
 		humanize.Comma(int64(low)),
@@ -74,6 +74,6 @@ func main() {
 	results = ordered.Clamp(results, minResults, maxResults)
 
 	for i := 0; i < results; i++ {
-		fmt.Println(hotdiva2000.Generate())
+		fmt.Println(bestblueyparty.Generate())
 	}
 }

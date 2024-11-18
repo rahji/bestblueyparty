@@ -1,5 +1,5 @@
-// Package hotdiva2000 provides a human-readable random string generator.
-package hotdiva2000
+// Package bestblueyparty provides a human-readable kid-friendly random string generator.
+package bestblueyparty
 
 import (
 	_ "embed"
