@@ -1,69 +1,60 @@
-# hotdiva2000
+# bestblueyparty
 
 A human-readable random string generator.
 
 Example output:
 
 ```
-ivy-league-daddy
-eurovision-business-school
-mildly-tarnished-business-idea
-180-bpm-lawyer
-royal-car-phone
-most-likely-a-stunning-investment
-sultry-board-meeting
-performance-driven-dad-bod
-phd-level-can-of-beer
-very-normal-pull-request-per-se
-apres-ski-pizza-party
-mostly-new-ux-design-software
-stunning-ai-startup-of-the-moment
-buttery-vape-juice-on-chain
-emo-pool-boy
-tragic-image-editor-because-why-not
-eighties-sparking-white-wine
-blatantly-offensive-yaml-error
-romantic-bed-linen
-beach-party-security-company
+dubious-jellybean-jungle
+scary-crush
+mr-buzzing-dream
+silky-slipper-with-style
+a-good-8-bit-crown
+beautiful-jokes
+dancing-money
+alert-food
+miraculous-gentlemen
+starry-button-if-you-will
+true-shoe
+cleanest-sandwiches
+sorry-friend
+woolly-danger-of-wonder
+best-hugs-at-your-service
+eternal-daughters-with-style
+pet-sleeves
+beastly-shape
+shy-answer-in-a-sec
+big-ol-boy-of-wonder
 ```
 
 Use it as a library:
 
 ```go
-import "github.com/charmbracelet/hotdiva2000"
+import "github.com/rahji/bestblueyparty"
 
-fmt.Println(hotdiva2000.Generate()) // star-studded-booze-cruise
+fmt.Println(bestblueyparty.Generate()) // best-hugs-at-your-service
 ```
 
 Use it on the CLI:
 
 ```bash
 # Generate a random string
-hotdiva2000
+bestblueyparty
 
 # Generate 25 random strings
-hotdiva2000 -r 25
+bestblueyparty -r 25
 
 # See also
-hotdiva2000 -h
+bestblueyparty -h
 ```
 
-## Whatcha Think?
+## Help Out
 
-We’d love to hear your thoughts on this project. Feel free to drop us a note.
-
-- [Twitter](https://twitter.com/charmcli)
-- [The Fediverse](https://mastodon.social/@charmcli)
-- [Discord](https://charm.sh/chat)
+This is a fork of the [Charm](https://charm.sh) library [hotdiva2000](https://github.com/charmbracelet/hotdiva2000).
+The idea is to replace the words with more kid-friendly ones. I'm going to experiment with a process that will allow
+people to add new words via GitHub and when they're approved, to re-build the package automatically. In the meantime,
+make a pull-request - it needs more words.
 
 ## License
 
-[MIT](https://github.com/charmbracelet/hotdiva2000/raw/main/LICENSE)
-
----
-
-Part of [Charm](https://charm.sh).
-
-<a href="https://charm.sh/"><img alt="The Charm logo" width="400" src="https://stuff.charm.sh/charm-badge.jpg" /></a>
-
-Charm 热爱开源 • Charm loves open source
+[MIT](https://github.com/rahji/bestblueyparty/raw/main/LICENSE)
